@@ -1,8 +1,8 @@
 /* Hint! the @font-face rule needs to be the first thing in your CSS file!*/
 @font-face {
     font-family: 'fira_sansregular';
-    src: url('../fontsfirasans-regular-webfont.woff2') format('woff2'),
-         url('../fontsfirasans-regular-webfont.woff') format('woff');
+    src: url('../fonts/firasans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/firasans-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
