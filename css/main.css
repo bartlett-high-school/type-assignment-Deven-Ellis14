@@ -1,5 +1,12 @@
 /* Hint! the @font-face rule needs to be the first thing in your CSS file!*/
+@font-face {
+    font-family: 'fira_sansregular';
+    src: url('../fontsfirasans-regular-webfont.woff2') format('woff2'),
+         url('../fontsfirasans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 
 /* Start the CSS*/
 body {
@@ -22,29 +29,29 @@ body {
 }
 
 h1 {
-
+	font-family: 'fira_sansregular', sans-serif;
 }
 
 h2 {
-
+   font-family: 'fira_sansregular', sans-serif;
 }
 
 h3 {
-
+font-family: 'fira_sansregular', sans-serif;
 }
 
 h4 {
-
+font-family: 'fira_sansregular', sans-serif;
 }
 
 h5 {
-
+font-family: 'fira_sansregular', sans-serif;
 }
 
 h6 {
-
+font-family: 'fira_sansregular', sans-serif;
 }
 
 p {
-
+font-family: 'fira_sansregular', sans-serif;
 }
